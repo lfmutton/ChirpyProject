@@ -14,5 +14,4 @@ func main(){
 		Handler: mux,
 	}
 	log.Fatal(server.ListenAndServe())
-	server.Close()
 }
